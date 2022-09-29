@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-203.49999999999997" y="-71.33333333333333">design.patterns.gof.behavioral.strategy.Strategy</node>
+    <node x="-328.6666666666667" y="54.16666666666666">design.patterns.gof.behavioral.strategy.SecondStrategy</node>
+    <node x="-92.49999999999997" y="54.16666666666666">design.patterns.gof.behavioral.strategy.FirstStrategy</node>
+    <node x="-230.8333333333333" y="-201.16666666666669">design.patterns.gof.behavioral.strategy.Context</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="design.patterns.gof.behavioral.strategy.SecondStrategy" target="design.patterns.gof.behavioral.strategy.Strategy" relationship="REALIZATION">
+      <point x="-3.3333333334439885E-4" y="-38.499666666666656" />
+      <point x="-252.66700000000003" y="19.0" />
+      <point x="-140.0" y="19.0" />
+      <point x="-2.8421709430404007E-14" y="27.00033333333333" />
+    </edge>
+    <edge source="design.patterns.gof.behavioral.strategy.Context" target="design.patterns.gof.behavioral.strategy.Strategy" relationship="TO_ONE">
+      <point x="5.333333333333314" y="38.5" />
+      <point x="-0.0" y="-27.0" />
+    </edge>
+    <edge source="design.patterns.gof.behavioral.strategy.FirstStrategy" target="design.patterns.gof.behavioral.strategy.Strategy" relationship="REALIZATION">
+      <point x="-2.8421709430404007E-14" y="-38.499666666666656" />
+      <point x="-26.5" y="19.0" />
+      <point x="-140.0" y="19.0" />
+      <point x="-2.8421709430404007E-14" y="27.00033333333333" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="true" x="75.66666666666669" y="-23.666666666666657" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
